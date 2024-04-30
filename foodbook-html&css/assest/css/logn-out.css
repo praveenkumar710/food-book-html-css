@@ -1,0 +1,76 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Preloader styles */
+#preloader {
+    background: #000 url(https://i.gifer.com/9gu9.gif)no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logn-out-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right, #fbf83f, #7c4949); ;
+    /* background: linear-gradient(to right, #3f5efb, #fc466b); */
+
+}
+.logn-out{
+    /* position: absolute; */
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 20px 20px 20px 10px rgb(102, 30, 30);
+    height: 70%;
+    
+
+}
+.logn-out-bnt-no,.logn-out-bnt-yes{
+    display: flex;
+    margin-left: 30%;
+    color: black;
+    border: none;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding: 15px;
+    /* background: linear-gradient(to right, #3f5efb, #fc466b); */
+    background:linear-gradient(to right, #fbf83f, #ee0a0a); ;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.logn-out button:hover{
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+
+}
+.logn-out p{
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+.logn-out h1{
+    font-size: 40px;
+    text-align: center;
+    color: #ee0a0a;
+}
+.logn-out i{
+    font-size: 100px;
+    color: #ee0a0a;
+    margin-left: 120px;
+    
+}.logn-out a{
+    text-decoration: none;
+}
